@@ -55,4 +55,8 @@ public:
 	afx_msg void OnBnClickedBackspace();
 	afx_msg void OnBnClickedplusminus();
 	afx_msg void OnBnClickedsignofecolution();
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	double x,y,secag,hag,minag;
+	int color;
 };
